@@ -3,7 +3,12 @@ export function fetchCountries(name) {
         .then(response => {
             if (response.ok) {
                 return response.json();
+            } else {
+                throw new Error('Error fetching data');
             }
-            throw new Error(response.statusText);
+        })
+        .catch(error => {
+            console.error('Fetch error:', error);
+            throw error;
         });
 };
