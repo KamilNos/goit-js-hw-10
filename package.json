@@ -1,7 +1,7 @@
 {
   "name": "goit-js-hw-10",
   "version": "2.0.0",
-  "description": "wpisz - tekst",
+  "description": "",
   "homepage": "https://KamilNos.github.io/goit-js-hw-10",
   "scripts": {
     "start": "parcel src/*.html",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KamilNos/goit-js-hw-10.git"
+    "url": "git+https://github.com/KamilNos/goit-js-hw-10"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KamilNos/parcel-project-template/issues"
+    "url": "https://github.com/KamilNos/goit-js-hw-10/issues"
   },
   "dependencies": {
     "lodash": "^4.17.21",
@@ -29,5 +29,5 @@
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
